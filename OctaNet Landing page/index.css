@@ -1,0 +1,367 @@
+*{
+    margin: 0;
+    padding: 0;
+    overflow-x: none;
+}
+.wrapper{
+    width: 1440px;
+    height: 3270px;
+    border: 1px solid rgb(194, 187, 187);
+    border-radius: 10px;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.box-content{
+    background-image: url(./images/modernHouse2.jpg);
+    height: 700px;
+    width: 1400px;
+    margin-left: 20px;
+    margin-top: 20px;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+
+}
+#main-title{
+    font-family: "Poetsen One", sans-serif;
+    font-size: 80px;
+    position: relative;
+    top: 20px;
+    left: 70px;
+    color: azure;
+    text-shadow: 6px 6px 4px rgb(169, 169, 165);
+}
+.box-h{
+    position: relative;
+    left: 40px;
+    top: 20px;
+    font-family: "Signika Negative", sans-serif;
+}
+.whitebox{
+    background-color: rgba(236, 245, 252, 0.847);
+    width: 600px;
+    height: 160px;
+    position: relative;
+    top: 10px;
+    left: 750px;
+}
+
+.small{
+    position: relative;
+    left: 90px;
+    top: 50px;
+    display: flex;
+    gap: 30px;
+}
+#rate{
+    position: relative;
+    font-weight: 300;
+    font-size:x-large;
+    top: -3px;
+}
+#line{
+    position: relative;
+    top: 34px;
+    left: 45px;
+    background-color: rgb(169, 184, 179);
+    width: 500px;
+    height: 1px;
+}
+.red-btn{
+    position: relative;
+    left: 860px;
+    top: 10px;
+    background-color: rgb(228, 56, 56);
+    color: white;
+    width: 300px;
+    height: 40px;
+    padding-top: 16px;
+    padding-left: 80px;
+    font-size: large;
+    font-family: "Signika Negative", sans-serif;
+}
+.red-btn:hover{
+    cursor: pointer;
+    color: bisque;
+    perspective: 10;
+    
+}
+.qlt-box{
+    position: relative;
+    left: 200px;
+   
+    height: 300px;
+    width: 1000px;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+#qlt-box-flex{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+
+}
+#ab{
+    width: 400px;
+}
+#qlt-h{
+    position: relative;
+    padding-top: 40px;
+    padding-left: 330px;
+    padding-bottom: 60px;
+    font-family: "Signika Negative", sans-serif;
+    font-size: x-large;
+}
+#ab-h{
+    font-family: "Maven Pro", sans-serif;
+    padding-left: 100px;
+    padding-bottom: 10px;
+}
+#ab-line{
+    background-color: rgb(169, 184, 179);
+    width: 200px;
+    height: 1px;
+    position: relative;
+    left: 30px;
+    
+}
+#ab-para{
+    padding-top: 10px;
+    font-family: "Maven Pro", sans-serif;
+}
+.structure{
+    position: relative;
+    left: 200px;
+   
+    height: 300px;
+    width: 1000px;
+    margin-left: 20px;
+    margin-top: 60px;
+}
+#str-h{
+    position: relative;
+    padding-top: 40px;
+    padding-left: 330px;
+    padding-bottom: 40px;
+    font-family: "Signika Negative", sans-serif;
+    font-size: x-large;
+}
+.str-flex{
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+}
+#str-line{
+    background-color: rgb(169, 184, 179);
+    width: 200px;
+    height: 1px;
+    position: relative;
+    
+    margin-bottom: 14px;
+}
+#str-left-h{
+    font-size: 20px;
+    padding-bottom: 18px;
+    font-family: "Signika Negative", sans-serif;
+}
+.str-li{
+    padding-bottom: 14px;
+    font-family: "Maven Pro", sans-serif;
+}
+#str-left{
+    position: relative;
+    top: 50px;
+}
+.rooms{
+    background-color: #F5F5F5;
+    position: relative;
+    top: 250px;
+    width: 1400px;
+    height: 480px;
+    margin-left: 20px;
+    margin-top: 20px;
+   
+}
+#rooms-h{
+    position: relative;
+    padding-top: 50px;
+    padding-left: 530px;
+    padding-bottom: 50px;
+    font-family: "Signika Negative", sans-serif;
+    font-size: x-large;
+}
+.rooms-flex{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+.room-flex-box{
+    width: 300px;
+}
+.room-line{
+    background-color: rgb(169, 184, 179);
+    width: 200px;
+    height: 1px;
+    position: relative;
+    padding-left: 70px;
+    margin-bottom: 14px;
+}
+.room-sub-h{
+    font-size: 17px;
+    padding-bottom: 10px;
+    padding-top: 20px;
+    padding-left: 60px;
+    font-family: "Signika Negative", sans-serif;
+}
+.room-para{
+    font-size: 14px;
+    font-family: "Maven Pro", sans-serif;
+}
+.rooms-img{
+    position: relative;
+    left: 40px;
+}
+.purches{
+    height: 200px;
+    width: 1400px;
+    background-image: url(./images/bg-img.jpg);
+    position: relative;
+    top: 240px;
+    margin-left: 20px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* filter: sepia(var(--value, 100%)) */
+    
+}
+.upper{
+    color: white;
+    position: relative;
+    padding-top: 50px;
+    padding-left: 30px;
+    padding-bottom: 50px;
+    font-family: "Signika Negative", sans-serif;
+    font-size: xx-large;
+}
+.red-btn1{
+    position: relative;
+    left: 30px;
+    top: -30px;
+    background-color: rgb(228, 56, 56);
+    color: white;
+    width: 300px;
+    height: 40px;
+    padding-top: 16px;
+    padding-left: 80px;
+    font-size: large;
+    font-family: "Signika Negative", sans-serif;
+}
+.red-btn1:hover{
+    cursor: pointer;
+    color: bisque;
+    perspective: 10;
+    
+}
+.agents{
+    
+    position: relative;
+    top: 250px;
+    width: 1400px;
+    height: 480px;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.agent-h{
+    position: relative;
+    padding-top: 40px;
+    padding-left: 530px;
+    padding-bottom: 50px;
+    font-family: "Signika Negative", sans-serif;
+    font-size: x-large;
+}
+.agent-flex{
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+}
+.agent-line{
+    background-color: rgb(169, 184, 179);
+    width: 130px;
+    height: 1px;
+    position: relative;
+    
+    margin-bottom: 8px;
+}
+.ahent-sub-h{
+    font-size: 17px;
+    padding-bottom: 10px;
+    padding-top: 20px;
+    font-family: "Signika Negative", sans-serif;
+}
+.agent-sub-bg{
+    background-color: #F5F5F5;
+    padding-left: 30px;
+    padding-bottom: 10px;
+}
+.customer{
+    background-color: #F5F5F5;
+    position: relative;
+    top: 180px;
+    width: 1400px;
+    height: 440px;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.cust-h{
+    position: relative;
+    padding-top: 50px;
+    padding-left: 530px;
+    padding-bottom: 50px;
+    font-family: "Signika Negative", sans-serif;
+    font-size: x-large;
+}
+.cust-flex{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+.cust-sub{
+    width: 450px;
+    
+}
+.cust-sub-box{
+    background-color: #DBD8D8;
+    border-radius: 10px;
+    height: 130px;
+    padding: 30px 30px;
+}
+.cust-img1{
+    border-radius: 50%;
+    border: 2px solid white;
+}
+.cust-img-girl{
+    position: relative;
+    top: -30px;
+    left: 30px;
+}
+.cust-img-boy{
+    position: relative;
+    top: -40px;
+    left: 330px;
+}
+.cust-name-girl{
+    position: relative;
+    top: -90px;
+    left: 140px;
+    font-family: "Signika Negative", sans-serif;
+}
+.cust-name-boy{
+    position: relative;
+    top: -90px;
+    left: 210px;
+    font-family: "Signika Negative", sans-serif;
+}
+#blure{
+    color: rgba(133, 135, 137, 0.537);
+}
